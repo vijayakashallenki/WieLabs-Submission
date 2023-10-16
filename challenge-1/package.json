@@ -1,0 +1,26 @@
+{
+  "name": "challenge-1",
+  "version": "1.0.0",
+  "description": "Processing Pipeline Challange",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "fast-csv": "^4.3.6",
+    "http": "^0.0.1-security",
+    "knex": "^3.0.1",
+    "sqlite3": "^5.1.6",
+    "stream": "^0.0.2",
+    "tar-fs": "^3.0.4",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.5",
+    "@types/tar-fs": "^2.0.2"
+  }
+}

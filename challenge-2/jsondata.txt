@@ -1,0 +1,184 @@
+[
+  {
+    'Company Name': 'Fiber AI',
+    'YC URL': 'https://www.ycombinator.com/companies/fiber-ai'
+  },
+  {
+    'Company Name': 'Flair Health',
+    'YC URL': 'https://www.ycombinator.com/companies/flair-health'
+  },
+  {
+    'Company Name': 'Nanograb',
+    'YC URL': 'https://www.ycombinator.com/companies/nanograb'
+  },
+  {
+    'Company Name': 'Langdock',
+    'YC URL': 'https://www.ycombinator.com/companies/langdock'
+  },
+  {
+    'Company Name': 'VectorShift',
+    'YC URL': 'https://www.ycombinator.com/companies/vectorshift'
+  },
+  {
+    'Company Name': 'VaultPay',
+    'YC URL': 'https://www.ycombinator.com/companies/vaultpay'
+  },
+  {
+    'Company Name': 'Slingshot',
+    'YC URL': 'https://www.ycombinator.com/companies/slingshot-2'
+  },
+  {
+    'Company Name': 'Amplitude',
+    'YC URL': 'https://www.ycombinator.com/companies/amplitude'
+  },
+  {
+    'Company Name': 'Razorpay',
+    'YC URL': 'https://www.ycombinator.com/companies/razorpay'
+  },
+  {
+    'Company Name': 'Reddit',
+    'YC URL': 'https://www.ycombinator.com/companies/reddit'
+  },
+  {
+    'Company Name': 'Untether Labs',
+    'YC URL': 'https://www.ycombinator.com/companies/untether-labs'
+  },
+  {
+    'Company Name': 'Dill',
+    'YC URL': 'https://www.ycombinator.com/companies/dill'
+  },
+  {
+    'Company Name': 'Pylon',
+    'YC URL': 'https://www.ycombinator.com/companies/pylon-2'
+  },
+  {
+    'Company Name': 'Slash',
+    'YC URL': 'https://www.ycombinator.com/companies/slash'
+  },
+  {
+    'Company Name': 'Metaphor',
+    'YC URL': 'https://www.ycombinator.com/companies/metaphor'
+  },
+  {
+    'Company Name': 'Supabase',
+    'YC URL': 'https://www.ycombinator.com/companies/supabase'
+  },
+  {
+    'Company Name': 'RescueTime',
+    'YC URL': 'https://www.ycombinator.com/companies/rescuetime'
+  },
+  {
+    'Company Name': 'Lingt',
+    'YC URL': 'https://www.ycombinator.com/companies/lingt'
+  },
+  {
+    'Company Name': 'Echodio',
+    'YC URL': 'https://www.ycombinator.com/companies/echodio'
+  },
+  {
+    'Company Name': 'YumDots',
+    'YC URL': 'https://www.ycombinator.com/companies/yumdots'
+  },
+  {
+    'Company Name': 'Airbnb',
+    'YC URL': 'https://www.ycombinator.com/companies/airbnb'
+  },
+  {
+    'Company Name': 'Heroku',
+    'YC URL': 'https://www.ycombinator.com/companies/heroku'
+  },
+  {
+    'Company Name': '280 North',
+    'YC URL': 'https://www.ycombinator.com/companies/280-north'
+  },
+  {
+    'Company Name': 'Insoshi',
+    'YC URL': 'https://www.ycombinator.com/companies/insoshi'
+  },
+  {
+    'Company Name': 'Kalshi',
+    'YC URL': 'https://www.ycombinator.com/companies/kalshi'
+  },
+  {
+    'Company Name': 'Eclipse Foods',
+    'YC URL': 'https://www.ycombinator.com/companies/eclipse-foods'
+  },
+  {
+    'Company Name': 'Modern Fertility',
+    'YC URL': 'https://www.ycombinator.com/companies/modern-fertility'
+  },
+  {
+    'Company Name': 'Long Term Stock Exchange',
+    'YC URL': 'https://www.ycombinator.com/companies/long-term-stock-exchange'
+  },
+  {
+    'Company Name': 'Materee',
+    'YC URL': 'https://www.ycombinator.com/companies/materee'
+  },
+  {
+    'Company Name': 'Second',
+    'YC URL': 'https://www.ycombinator.com/companies/second'
+  },
+  {
+    'Company Name': 'highlight.io',
+    'YC URL': 'https://www.ycombinator.com/companies/highlight-io'
+  },
+  {
+    'Company Name': 'Unstatiq',
+    'YC URL': 'https://www.ycombinator.com/companies/unstatiq'
+  },
+  {
+    'Company Name': 'Lively, Inc.',
+    'YC URL': 'https://www.ycombinator.com/companies/lively-inc'
+  },
+  {
+    'Company Name': 'Monzo',
+    'YC URL': 'https://www.ycombinator.com/companies/monzo-bank'
+  },
+  {
+    'Company Name': 'Stripe',
+    'YC URL': 'https://www.ycombinator.com/companies/stripe'
+  },
+  {
+    'Company Name': 'New Story',
+    'YC URL': 'https://www.ycombinator.com/companies/new-story'
+  },
+  {
+    'Company Name': 'WalletKit',
+    'YC URL': 'https://www.ycombinator.com/companies/walletkit'
+  },
+  {
+    'Company Name': 'Internet Friends',
+    'YC URL': 'https://www.ycombinator.com/companies/internet-friends'
+  },
+  {
+    'Company Name': 'SolStar',
+    'YC URL': 'https://www.ycombinator.com/companies/solstar'
+  },
+  {
+    'Company Name': 'Hiro Systems',
+    'YC URL': 'https://www.ycombinator.com/companies/hiro-systems'
+  },
+  {
+    'Company Name': 'Democracy Earth',
+    'YC URL': 'https://www.ycombinator.com/companies/democracy-earth'
+  },
+  {
+    'Company Name': 'Heysan',
+    'YC URL': 'https://www.ycombinator.com/companies/heysan'
+  },
+  {
+    'Company Name': 'Happyrobot',
+    'YC URL': 'https://www.ycombinator.com/companies/happyrobot'
+  },
+  {
+    'Company Name': 'Raz',
+    'YC URL': 'https://www.ycombinator.com/companies/raz'
+  },
+  {
+    'Company Name': 'Khoj',
+    'YC URL': 'https://www.ycombinator.com/companies/khoj'
+    'Company Name': 'Tempo',
+    'YC URL': 'https://www.ycombinator.com/companies/tempo'
+  }
+]
