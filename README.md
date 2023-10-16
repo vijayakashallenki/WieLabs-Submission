@@ -1,55 +1,46 @@
-# Wielabs interview challenges
+# Wielabs 
 
-Welcome! We're excited to be considering you for a full-stack engineering role at Wielabs. This folder (which will be the basis for a private GitHub repository) contains several engineering challenges for you to complete over the next few days.
 
-## What's inside
 
-You'll find 3 challenges here, each in its own folder:
+Two Challenges
+- `challenge-1` Data processing and pipelining. Processed large files with the Node Streams API and convert CSVs into SQL commands with Knex.
+                <br>I took 3 helperfunctions:
+                <br>`downloadhelper` : Downloads the `dump.tar.gz` file from the url provided
+                <br>`decompresshelper`: Decompress and converts the `.tar.tz` file into CSV file (two files Generated Customers.csv , Organizations.csv)
+                <br>`databasestrhelper`: Here it does two things
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- parsing the csv
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- storing the csv files as tables in sqllite database<br><br>       
+- `challenge-2` Web scraping (scraped data from the given list of Y Combinator ("YC") companies). Used tools like Crawlee and Cheerio.
+                <br> The steps I followed for this are:
+                <br>&nbsp;&nbsp;- Parsing the CSV file in the format
+                 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+                 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Company Name': 'Name Of The Company',
+                 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'YC URL': 'url of the Company'
+                 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+                <br>&nbsp;&nbsp;- Scrapping data with multiurls:
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Used helper functions for getting each element like name, foundedyear , description from the DOM tree
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All the helper functions are at `./utils` folder  
+  Instructions to run Challanges:
+  - Typescript to run it
+  - `npm install`
+  - Challenge-1
+    - `cd challenge-1` 
+    - run `ts-node runner.ts`
+  - Challenge-2
+    - `cd challenge-2` 
+    - run `ts-node runner.ts`
 
-- `challenge-1` will test your data processing and pipelining skills. You'll process large files with the Node Streams API and convert CSVs into SQL commands with Knex.
-- `challenge-2` will test your web scraping abilities. You'll use tools like Crawlee and Cheerio.
-- `challenge-3` will test your frontend development skills with React. You'll also use new tools like Chakra UI.
 
-Each challenge is self-contained, although they share some NPM modules (which is why the `package.json` file is out in the parent folder). Feel free to install any other modules that might help you; be sure they're compatible with TypeScript.
+<br>
+      
+Resources I used:<br>
+  <a href="https://stackoverflow.com/questions/77296587/getting-no-value-in-the-console-trying-to-access-a-element-in-the-domtree-webs">- stackoverflow</a><br>
+  <a href="">- Github</a><br>
+  <a href="https://www.phind.com/">- Phind</a>
+  <br><a href="https://crawlee.dev/docs/quick-start">- Crawlee guide</a><br> 
+  <a href="https://crawlee.dev/docs/guides/cheerio-crawler-guide">- Cheerio crawler guide.</a><br>
+   
 
-You should expect to spend about 6 hours on each challenge.
 
-## Skills needed
 
-Before starting this challenge, you should be familiar with:
 
-- TypeScript
-- React
-- SQL
-
-Each challenge will introduce new tools and libraries, but you aren't expected to be familiar with them already. They're straightforward enough that you should be able to pick them up on the fly. We use these exact same tools inside Wielabs, so if you end up joining the team, you'll be well prepared for the job.
-
-## Tooling
-
-The main tools you'll need are Node (version 18+) and NPM. Once you've [installed these](https://nodejs.org/en/download), you should also run this:
-
-```sh
-npm install --global tsx
-```
-
-`tsx` is a useful tool for running TypeScript files from the command-line, like `node` is for JavaScript files. You'll be using that throughout the challenge.
-
-## Packages
-
-Most of the Node.js modules you'll need for these challenges have already been added to `package.json`, so you'll get them instantly once you do `npm install`. Take these as helpful hints for which tools you should use when tackling these challenges!
-
-We've also pre-installed a handful of useful utility libraries, such as `lodash`, `immutable`, `dayjs`, and `axios`.
-
-Feel free to install other packages if you need them!
-
-## External resources policy
-
-We use Stack Overflow and ChatGPT on the job, so you're allowed to use them as part of this coding challenge. However, **please leave comments indicating which pieces of code you got from Stack Overflow or ChatGPT**, including links to any applicable Stack Overflow discussions. And be sure to double-check the code you get from these sources, because they're often subtly wrong or outdated.
-
-## Submission
-
-You probably got this code as a ZIP file that you unzipped. You should upload this to a new private GitHub repository and start working on it there. Once you're done with the challenge, invite the `wielabs` account as a collaborator on your repository and ping the Wielabs team to let us know you're done. We'll then start reviewing your work!
-
-## Questions?
-
-Ping us on Slack, email, or however we got in touch with you if you have any questions about expectations or submission. If you find any ambiguity or missing information in this repository, let us know!
