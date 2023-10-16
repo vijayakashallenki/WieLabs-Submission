@@ -5,9 +5,9 @@
 Two Challenges
 - `challenge-1` Data processing and pipelining. Processed large files with the Node Streams API and convert CSVs into SQL commands with Knex.
                 <br>I took 3 helperfunctions:
-                <br>`downloadhelper` : Downloads the `dump.tar.gz` file from the url provided
-                <br>`decompresshelper`: Decompress and converts the `.tar.tz` file into CSV file (two files Generated Customers.csv , Organizations.csv)
-                <br>`databasestrhelper`: Here it does two things
+                <br>- `downloadhelper` : Downloads the `dump.tar.gz` file from the url provided
+                <br>- `decompresshelper`: Decompress and converts the `.tar.tz` file into CSV file (two files Generated Customers.csv , Organizations.csv)
+                <br>- `databasestrhelper`: Here it does two things
                 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- parsing the csv
                 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- storing the csv files as tables in sqllite database<br><br>       
 - `challenge-2` Web scraping (scraped data from the given list of Y Combinator ("YC") companies). Used tools like Crawlee and Cheerio.
